@@ -1,1 +1,1 @@
-{	"name": "multi-presentation",	"version": "0.0.1",	"dependencies": {		"express":		"3.1.x",		"socket.io":	"0.9.x",		"crypto":		"0.0.3.x"	},	"engines": {		"node": "0.10.x",		"npm": "1.2.x"	}}
+{	"name": "multi-presentation",	"version": "0.0.1",	"dependencies": {		"express":		"3.1.x",		"socket.io":	"0.9.x"	},	"engines": {		"node": "0.10.x",		"npm": "1.2.x"	}}
