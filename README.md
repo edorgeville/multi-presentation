@@ -25,6 +25,6 @@ Keep in mind there could be multiple people testing it as the same time, resulti
 The repo already includes all the necessary files for a heroku deployment.
 
 
-  [1]: https://raw.github.com/th3m4ri0/multi-presentation/demo.gif
+  [1]: https://raw.github.com/th3m4ri0/multi-presentation/master/demo.gif
   [2]: http://multi-presentation.herokuapp.com/
   [3]: http://multi-presentation.herokuapp.com/presentation.html
