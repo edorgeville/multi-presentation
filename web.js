@@ -20,7 +20,6 @@ io.configure(function () {
   } 
 });
 
-//socket = new io.Socket();
 var currentIndex=1;
 
 io.sockets.on('connection', function (socket) {
