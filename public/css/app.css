@@ -1,0 +1,506 @@
+/*CSS BY ERWANDORGEVILLE.COM */
+/*
+                        .
+                     .:::.
+                   .:::::::.
+                  V^V^V^V^V^V
+                   (| ^ ^ |)
+     HI!            | (_) |
+                    `//=\\'
+                    (((()))
+                     )))((
+                     (())))
+                      ))((
+                      (()
+                       ))
+                       (
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxn5HxGBcBvicCpTp6spHfNo.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/PRmiXeptR36kaC0GEAetxkCDe67GEgBv_HnyvHTfdew.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xF1YPouZEKgzpqZW9wN-3Ek.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Cond Light Italic'), local('OpenSans-CondensedLightItalic'), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/jIXlqT1WKafUSwj6s9AzV6XnXbwdDC8wAz6IIzmCDUP3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGMa9awK0IKUjIWABZIchFI8.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Source Sans Pro Black'), local('SourceSansPro-Black'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGHiec-hVyr2k4iOzEQsW1iE.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight Italic'), local('SourceSansPro-ExtraLightIt'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/fpTVHK8qsXbIeTHTrnQH6PwwJPUC4r0o28cUCbhjOjM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Source Sans Pro Light Italic'), local('SourceSansPro-LightIt'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/fpTVHK8qsXbIeTHTrnQH6GGomRtBD2u8FwSY4jjlmeA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-It'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold Italic'), local('SourceSansPro-SemiboldIt'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/fpTVHK8qsXbIeTHTrnQH6PULlOK_XQENnt2ryrY843E.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldIt'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/fpTVHK8qsXbIeTHTrnQH6Nog-We9VNve39Jr4Vs_aDc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Source Sans Pro Black Italic'), local('SourceSansPro-BlackIt'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/fpTVHK8qsXbIeTHTrnQH6ONg1gFYvjbPSGxSBhvPu6E.woff) format('woff');
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #565656;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.2em;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+h1,
+h2 {
+  font-family: 'Open Sans Condensed';
+}
+h3,
+h4 {
+  font-family: 'Open Sans';
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #1b252a;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+}
+h4 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+span {
+  color: #999999;
+}
+ul li {
+  margin-left: 40px;
+  list-style: circle;
+}
+.log {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 50%;
+  bottom: 50%;
+  left: 0;
+  overflow: auto;
+}
+img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.vignette {
+  box-shadow: 0px 0px 5px grey;
+  display: inline-block;
+  border: 10px solid whitesmoke;
+  margin: 20px 0px;
+}
+.vignette img {
+  margin: 0;
+}
+section {
+  border-top: 2px #e6e6e6 dotted;
+}
+section > *:first-child {
+  margin-top: 20px;
+}
+section > *:last-child {
+  margin-bottom: 20px;
+}
+.container {
+  padding: 20px;
+}
+.container-spaced {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.seek {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 20px solid red;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  opacity: 0.4;
+}
+#wrapper {
+  position: relative;
+  min-height: 100%;
+}
+#wrapper #content {
+  position: absolute;
+  top: 0;
+  max-height: 100%;
+  overflow: auto;
+  margin-left: 12em;
+}
+#wrapper #sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12em;
+  min-height: 100%;
+  background-color: whitesmoke;
+  background-image: url('../img/bg.jpg');
+  color: #929da4;
+  color: #fff;
+}
+#wrapper #sidebar ul {
+  margin-top: 20px;
+}
+#wrapper #sidebar ul li {
+  margin-left: 10px;
+  list-style: square;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+}
+#wrapper #sidebar ul li a {
+  color: inherit;
+  text-decoration: inherit;
+}
+#wrapper #sidebar ul li a:hover {
+  text-decoration: underline;
+}
+#dynamic {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#qrcode {
+  /*width: 120px;
+	height:120px;*/
+
+  /*border:10px solid whitesmoke;*/
+
+}
+#qrcode canvas {
+  max-width: 100%;
+  max-height: 100%;
+}
+.table {
+  box-shadow: 0px 0px 5px grey;
+  border: 10px solid whitesmoke;
+  text-align: center;
+}
+.table ul li {
+  margin-left: 0px;
+  list-style: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+.table ul li:last-child {
+  border-bottom: none;
+}
+.table > .row {
+  border-bottom: 1px solid #d3d3d3;
+}
+.table > .row:last-child {
+  border-bottom: none;
+}
+.table > .row > .col {
+  border-right: 1px solid #d3d3d3;
+}
+.table > .row > .col:last-child {
+  border-right: none;
+}
+.row {
+  display: block;
+  width: 100%;
+}
+.col {
+  display: inline-block;
+  width: 48%;
+}
+/*
+      _.-"""""-._
+     .'           '.
+    /               \
+   ##  .--.   .--.  ##
+   ##_ ___    ___ __##
+ _ ##-//  \\=//  \\-## _
+/ \#  \\_0// \\_0//  #/ \
+\( \   '-;'   ';-'   / )/
+ |)      |     |      (|
+ \_/|   /       \   |\_/
+    |   \__.-.__/   |
+    \    .==.==.    /
+     '.  \`---`/  .'
+       `. `"""` .'
+         '-...-'
+*/

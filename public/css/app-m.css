@@ -1,0 +1,37 @@
+.slides-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.slides-container .slides {
+  height: 100%;
+  width: 99999px;
+}
+.slides-container .slides section {
+  margin: 0;
+  height: 100%;
+  overflow: auto;
+  width: 200px;
+  float: left;
+}
+.slides-container .slides section > * {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.slides-container .slides section .left,
+.slides-container .slides section .right {
+  float: none;
+}
+
+#footer{
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:5px;
+  background-color: rgba(0,0,0,0.1);
+}
