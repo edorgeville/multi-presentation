@@ -8,15 +8,23 @@ Interactive keynote based on node.js
     npm install
     node web.js
 
+## Demo
+
+![Demonstration of the project][1]
+
 ## Live demo
 
-[Mobile view][1]
+Keep in mind there could be multiple people testing it as the same time, resulting in some buggy experience.
 
-[Presentation view][2]
+[Mobile view][2]
+
+[Presentation view][3]
 
 ## Side notes
 
 The repo already includes all the necessary files for a heroku deployment.
 
-  [1]: http://multi-presentation.herokuapp.com/
-  [2]: http://multi-presentation.herokuapp.com/presentation.html
+
+  [1]: https://raw.github.com/th3m4ri0/multi-presentation/demo.gif
+  [2]: http://multi-presentation.herokuapp.com/
+  [3]: http://multi-presentation.herokuapp.com/presentation.html
